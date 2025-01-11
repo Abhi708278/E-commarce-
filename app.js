@@ -10,8 +10,10 @@ const app = express();
 const port = 5000;
 
 
+
 // Use CORS to allow requests from all origins
 app.use(cors());
+
 
 // Parse incoming JSON requests
 app.use(express.json()); // This is necessary to parse JSON bodies
