@@ -8,6 +8,7 @@ const cors = require("cors");
 const app = express();
 const port = 5000;
 
+
 // Use CORS to allow requests from all origins
 app.use(cors());
 
