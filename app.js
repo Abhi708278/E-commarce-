@@ -6,6 +6,7 @@ const categoryRoutes = require("./src/routes/CategoryRoutes"); // Import categor
 const cors = require("cors");
 
 const app = express();
+
 const port = 5000;
 
 
